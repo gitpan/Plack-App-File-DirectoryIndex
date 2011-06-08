@@ -1,0 +1,28 @@
+---
+abstract: 'Autoload resources in directories'
+author:
+  - 'Jan Henning Thorsen C<< jhthorsen at cpan.org >>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 1.01'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Plack-App-File-DirectoryIndex
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Plack: 0.99
+  base: 2.14
+resources:
+  bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Plack-App-File-DirectoryIndex
+  homepage: http://search.cpan.org/dist/Plack-App-File-DirectoryIndex
+  license: http://dev.perl.org/licenses/
+  repository: git://github.com/jhthorsen/plack-app-file-directoryindex.git
+version: 0.1
