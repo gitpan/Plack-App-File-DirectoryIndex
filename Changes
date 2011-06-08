@@ -1,5 +1,8 @@
 Revision history for Plack::App::File::DirectoryIndex
 
+0.11     Wed Jun  8 20:45:50 CEST 2011
+       - DEPRECATED
+
 0.10     Wed Jun  8 14:12:45 CEST 2011
        - First release of Plack::App::File::DirectoryIndex
 

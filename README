@@ -1,40 +1,11 @@
 NAME
-    Plack::App::File::DirectoryIndex - Autoload resources in directories
+    Plack::App::File::DirectoryIndex - DEPRECATED
 
 VERSION
-    0.10
+    0.11
 
 DESCRIPTION
-    This app will automatically load files if a directory is given.
-
-SYNOPSIS
-        builder {
-            mount '/' =>
-                Plack::App::File::DirectoryIndex->new(
-                    root => '/some/directory',
-                    index_files => [qw/ index.html README /],
-                );
-        };
-
-ATTRIBUTES
-  file
-    This attribute exists in Plack::App::File, but setting this in "new"
-    will cause an exception.
-
-  index_files
-    Holds a list of files to search for when a directory is given. Default
-    value holds one element: "index.html".
-
-METHODS
-  new
-    Will construct a new object, with the given attributes as input.
-
-  should_handle
-    Will return true if the given file is a diectory or plain file.
-
-  serve_path
-    Does the same as "serve_path" in Plack::App::File, but will load files
-    from "index_files" if a directory is given.
+    This module will be removed from CPAN.
 
 COPYRIGHT & LICENSE
     This library is free software. You can redistribute it and/or modify it
